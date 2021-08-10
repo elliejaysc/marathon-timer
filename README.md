@@ -27,7 +27,7 @@ You should also have all of your setup options on the left.
 
 ![Sub Goal](img/ChatCommand-2.png)
 
-<img src="img/ChatCommand-2.png" style="width: auto; height: auto;">
+<img src="img/ChatCommand-2.png" width="300px" style="width: 300px; height: auto;" />
 
 # Change Log
 
