@@ -25,8 +25,6 @@ You should also have all of your setup options on the left.
 
 # How to use your Marathon Timer
 
-![Sub Goal](img/ChatCommand-2.png)
-
 <img src="img/ChatCommand-2.png" width="300px" style="width: 300px; height: auto;" />
 
 # Change Log
