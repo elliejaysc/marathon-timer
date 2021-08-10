@@ -55,7 +55,7 @@ Enter the amount of time that you will want the clock to start at.
 
 Choose yes to start the timer & no to stop it.
 
-- [↑](#How-to-use-your-Marathon-Timer)
+[↑](#How-to-use-your-Marathon-Timer)
 
 ## Fonts
 
@@ -79,7 +79,7 @@ Select the boldness of your font.
 
 Select the color of your font.
 
-- [↑](#How-to-use-your-Marathon-Timer)
+[↑](#How-to-use-your-Marathon-Timer)
 
 ## Chat Commands
 
@@ -95,7 +95,7 @@ Use the following format to add time to the timer: *!YourCommand Amount(Type) --
 
 Your time types are hours(h), minutes(m) & seconds(s).
 
-- [↑](#How-to-use-your-Marathon-Timer)
+[↑](#How-to-use-your-Marathon-Timer)
 
 ## Sub Config
 
@@ -111,7 +111,7 @@ The amount of time to be added per sub.
 
 The type of time in which the amount should be added, hours, minutes or seconds.
 
-- [↑](#How-to-use-your-Marathon-Timer)
+[↑](#How-to-use-your-Marathon-Timer)
 
 ## Cheer Config
 
@@ -137,7 +137,7 @@ The amount of time to be added per cheer amount.
 
 The type of time in which the amount should be added, hours, minutes or seconds.
 
-- [↑](#How-to-use-your-Marathon-Timer)
+[↑](#How-to-use-your-Marathon-Timer)
 
 ## Tips Config
 
@@ -163,7 +163,7 @@ The amount of time to be added per tip amount.
 
 The type of time in which the amount should be added, hours, minutes or seconds.
 
-- [↑](#How-to-use-your-Marathon-Timer)
+[↑](#How-to-use-your-Marathon-Timer)
 
 ## Dixper Config
 
@@ -187,7 +187,7 @@ The amount of time to be added per crates purchased.
 
 The type of time in which the amount should be added, hours, minutes or seconds.
 
-- [↑](#How-to-use-your-Marathon-Timer)
+[↑](#How-to-use-your-Marathon-Timer)
 
 # Change Log
 
