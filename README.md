@@ -31,9 +31,9 @@ The following will explain how to configure the timer.
 
 **Main Config**
 
-<img src="img/MainConfig.png" width="300px" />
-
 The main config section is for the base timer configuration.
+
+<img src="img/MainConfig.png" width="300px" />
 
 - Timer Name 
 
@@ -49,9 +49,9 @@ Choose yes to start the timer & no to stop it.
 
 **Fonts**
 
-<img src="img/FontsConfig.png" width="300px" />
-
 The fonts section is used to select & customize your font.
+
+<img src="img/FontsConfig.png" width="300px" />
 
 - Font Family 
 
@@ -71,9 +71,9 @@ Select the color of your font.
 
 **Chat Commands**
 
-<img src="img/ChatCommand.png" width="300px" />
-
 The chat commands section allows you to setup a custom chat command to manually add time to the timer.  Only the streamer can use the command.
+
+<img src="img/ChatCommand.png" width="300px" />
 
 - Add time command 
 
@@ -85,9 +85,9 @@ Your time types are hours(h), minutes(m) & seconds(s).
 
 **Sub Config**
 
-<img src="img/SubConfig.png" width="300px" />
-
 The sub config section is for configuring how much time is added to the clock per subscription event.
+
+<img src="img/SubConfig.png" width="300px" />
 
 - Time Per Sub
 
@@ -99,9 +99,15 @@ The type of time in which the amount should be added, hours, minutes or seconds.
 
 **Cheer Config**
 
-<img src="img/CheerConfig.png" width="300px" />
-
 The cheer config section is for configuring how much time is added to the clock per an amount of bits cheered.
+
+The best way to read & understand the config is top down. In the screen shot below the configuration would read as follows:
+
+*For every 25 bits cheered, 5 minutes will be added to the clock.*
+
+Therefore if someone cheers 50 bits, it will add 10 minutes to the clock.
+
+<img src="img/CheerConfig.png" width="300px" />
 
 - Cheer Amount
 
@@ -117,9 +123,15 @@ The type of time in which the amount should be added, hours, minutes or seconds.
 
 **Tips Config**
 
-<img src="img/TipsConfig.png" width="300px" />
-
 The tips config section is for configuring how much time is added to the clock per an amount tipped.
+
+The best way to read & understand the config is top down. In the screen shot below the configuration would read as follows:
+
+*For every 1 dollar tipped, 1 minute will be added to the clock.*
+
+Therefore if someone tips $5, 5 minutes will be added to the clock.
+
+<img src="img/TipsConfig.png" width="300px" />
 
 - Tip Amount
 
@@ -135,11 +147,13 @@ The type of time in which the amount should be added, hours, minutes or seconds.
 
 **Dixper Config**
 
-<img src="img/DixperConfig.png" width="300px" />
-
 The Dixper config section is for configuring how much time is added to the clock per an amount of Dixper crates purchased.
 
 This integration requires you to be a [Dixper](https://dixper.gg/home) user & to have the Dixper bot enabled in your chat.
+
+Remember, the best way to read & understand the config is top down. 
+
+<img src="img/DixperConfig.png" width="300px" />
 
 - Dixper Crate Amount
 

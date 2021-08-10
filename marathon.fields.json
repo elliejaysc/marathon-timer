@@ -70,7 +70,6 @@
     "value": "rgba(255,255,255,1)",
     "group": "Fonts"
   },
-  
   "ChatCommandSettings0": {
     "type": "hidden",
     "label": "***************************",
@@ -91,14 +90,12 @@
     "label": "***************************",
     "group":"Chat Commands"
   },
-  
     "addTimeCmd": {
     "type": "text",
     "label": "Add time command",
     "value": "!addtime",
     "group": "Chat Commands"
   },
-  
   "ChatCommandSettings0-1": {
     "type": "hidden",
     "label": "***************************",
@@ -124,7 +121,6 @@
     "label": "***************************",
     "group":"Sub Config"
   },
-  
   "timePerSub": {
     "type": "number",
     "label": "Time Per Sub",
@@ -197,6 +193,36 @@
       "h": "Hours"
     },
     "group": "Tips Config"
+  },
+  "DixInfo1": {
+    "type": "hidden",
+    "label": "***************************",
+    "group":"Dixper Config"
+  },
+  "DixInfo2": {
+    "type": "hidden",
+    "label": "This integration requires you",
+    "group":"Dixper Config"
+  },
+  "DixInfo3": {
+    "type": "hidden",
+    "label": "to be a Dixper user &",
+    "group":"Dixper Config"
+  },
+    "DixInfo4": {
+    "type": "hidden",
+    "label": "to have the Dixper bot",
+    "group":"Dixper Config"
+  },
+  	"DixInfo5": {
+    "type": "hidden",
+    "label": "enabled in your chat.",
+    "group":"Dixper Config"
+  },
+  "DixInfo6": {
+    "type": "hidden",
+    "label": "***************************",
+    "group":"Dixper Config"
   },
   "dpCrateAmount": {
     "type": "number",
