@@ -55,6 +55,8 @@ Enter the amount of time that you will want the clock to start at.
 
 Choose yes to start the timer & no to stop it.
 
+- [↑](#How-to-use-your-Marathon-Timer)
+
 ## Fonts
 
 The fonts section is used to select & customize your font.
@@ -77,6 +79,8 @@ Select the boldness of your font.
 
 Select the color of your font.
 
+- [↑](#How-to-use-your-Marathon-Timer)
+
 ## Chat Commands
 
 The chat commands section allows you to setup a custom chat command to manually add time to the timer.  Only the streamer can use the command.
@@ -91,6 +95,8 @@ Use the following format to add time to the timer: *!YourCommand Amount(Type) --
 
 Your time types are hours(h), minutes(m) & seconds(s).
 
+- [↑](#How-to-use-your-Marathon-Timer)
+
 ## Sub Config
 
 The sub config section is for configuring how much time is added to the clock per subscription event.
@@ -104,6 +110,8 @@ The amount of time to be added per sub.
 - Select Time Type
 
 The type of time in which the amount should be added, hours, minutes or seconds.
+
+- [↑](#How-to-use-your-Marathon-Timer)
 
 ## Cheer Config
 
@@ -129,6 +137,8 @@ The amount of time to be added per cheer amount.
 
 The type of time in which the amount should be added, hours, minutes or seconds.
 
+- [↑](#How-to-use-your-Marathon-Timer)
+
 ## Tips Config
 
 The tips config section is for configuring how much time is added to the clock per an amount tipped.
@@ -153,6 +163,8 @@ The amount of time to be added per tip amount.
 
 The type of time in which the amount should be added, hours, minutes or seconds.
 
+- [↑](#How-to-use-your-Marathon-Timer)
+
 ## Dixper Config
 
 The Dixper config section is for configuring how much time is added to the clock per an amount of Dixper crates purchased.
@@ -174,6 +186,8 @@ The amount of time to be added per crates purchased.
 - Select Time Type
 
 The type of time in which the amount should be added, hours, minutes or seconds.
+
+- [↑](#How-to-use-your-Marathon-Timer)
 
 # Change Log
 
