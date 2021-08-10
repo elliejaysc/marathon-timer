@@ -29,7 +29,7 @@ The marathon timer is an overlay for streamers who want to display an interactiv
 
 The following will explain how to configure the timer.
 
-**Main Config**
+## Main Config
 
 The main config section is for the base timer configuration.
 
@@ -47,7 +47,7 @@ Enter the amount of time that you will want the clock to start at.
 
 Choose yes to start the timer & no to stop it.
 
-**Fonts**
+## Fonts
 
 The fonts section is used to select & customize your font.
 
@@ -69,7 +69,7 @@ Select the boldness of your font.
 
 Select the color of your font.
 
-**Chat Commands**
+## Chat Commands
 
 The chat commands section allows you to setup a custom chat command to manually add time to the timer.  Only the streamer can use the command.
 
@@ -83,7 +83,7 @@ Use the following format to add time to the timer: *!YourCommand Amount(Type) --
 
 Your time types are hours(h), minutes(m) & seconds(s).
 
-**Sub Config**
+## Sub Config
 
 The sub config section is for configuring how much time is added to the clock per subscription event.
 
@@ -97,7 +97,7 @@ The amount of time to be added per sub.
 
 The type of time in which the amount should be added, hours, minutes or seconds.
 
-**Cheer Config**
+## Cheer Config
 
 The cheer config section is for configuring how much time is added to the clock per an amount of bits cheered.
 
@@ -121,7 +121,7 @@ The amount of time to be added per cheer amount.
 
 The type of time in which the amount should be added, hours, minutes or seconds.
 
-**Tips Config**
+## Tips Config
 
 The tips config section is for configuring how much time is added to the clock per an amount tipped.
 
@@ -145,7 +145,7 @@ The amount of time to be added per tip amount.
 
 The type of time in which the amount should be added, hours, minutes or seconds.
 
-**Dixper Config**
+## Dixper Config
 
 The Dixper config section is for configuring how much time is added to the clock per an amount of Dixper crates purchased.
 
