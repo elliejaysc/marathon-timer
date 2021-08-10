@@ -29,6 +29,14 @@ The marathon timer is an overlay for streamers who want to display an interactiv
 
 The following will explain how to configure the timer.
 
+- [Main Config](#main-config)
+- [Fonts](#fonts)
+- [Chat Commands](#chat-commands)
+- [Sub Config](#sub-config)
+- [Cheer Config](#cheer-config)
+- [Tips Config](#tips-config)
+- [Dixper Config](#dixper-config)
+
 ## Main Config
 
 The main config section is for the base timer configuration.
