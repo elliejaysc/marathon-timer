@@ -25,9 +25,135 @@ You should also have all of your setup options on the left.
 
 # How to use your Marathon Timer
 
-![Sub Goal](img/CheerConfig.png)
+The marathon timer is an overlay for streamers who want to display an interactive count down timer on their stream. These are usually used for longer, marathon type streams where the community can Sub, Cheer, Tip, etc to run the clock up for how long the streamer will continue to stream.
+
+The following will explain how to configure the timer.
+
+** Main Config **
+
+<img src="img/MainConfig.png" width="300px" />
+
+The main config section is for the base timer configuration.
+
+- Timer Name 
+
+The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+
+- Starting Values: Hours, Minutes, Seconds
+
+Enter the amount of time that you will want the clock to start at.
+
+- Start Timer
+
+Choose yes to start the timer & no to stop it.
+
+** Fonts **
+
+<img src="img/FontsConfig.png" width="300px" />
+
+The main config section is for the base timer configuration.
+
+- Timer Name 
+
+The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+
+- Starting Values: Hours, Minutes, Seconds
+
+Enter the amount of time that you will want the clock to start at.
+
+- Start Timer
+
+Choose yes to start the timer & no to stop it.
+
+** Chat Commands **
+
+<img src="img/ChatCommand.png" width="300px" />
+
+The main config section is for the base timer configuration.
+
+- Timer Name 
+
+The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+
+- Starting Values: Hours, Minutes, Seconds
+
+Enter the amount of time that you will want the clock to start at.
+
+- Start Timer
+
+Choose yes to start the timer & no to stop it.
+
+** Sub Config **
+
+<img src="img/SubConfig.png" width="300px" />
+
+The main config section is for the base timer configuration.
+
+- Timer Name 
+
+The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+
+- Starting Values: Hours, Minutes, Seconds
+
+Enter the amount of time that you will want the clock to start at.
+
+- Start Timer
+
+Choose yes to start the timer & no to stop it.
+
+** Cheer Config **
+
+<img src="img/CheerConfig.png" width="300px" />
+
+The main config section is for the base timer configuration.
+
+- Timer Name 
+
+The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+
+- Starting Values: Hours, Minutes, Seconds
+
+Enter the amount of time that you will want the clock to start at.
+
+- Start Timer
+
+Choose yes to start the timer & no to stop it.
+
+** Tips Config **
+
+<img src="img/TipsConfig.png" width="300px" />
+
+The main config section is for the base timer configuration.
+
+- Timer Name 
+
+The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+
+- Starting Values: Hours, Minutes, Seconds
+
+Enter the amount of time that you will want the clock to start at.
+
+- Start Timer
+
+Choose yes to start the timer & no to stop it.
+
+** Dixper Config **
+
+<img src="img/DixperConfig.png" width="300px" />
+
+The main config section is for the base timer configuration.
+
+- Timer Name 
+
+The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+
+- Starting Values: Hours, Minutes, Seconds
+
+Enter the amount of time that you will want the clock to start at.
+
+- Start Timer
+
+Choose yes to start the timer & no to stop it.
 
 # Change Log
-
-# Images
 
