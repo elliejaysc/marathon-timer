@@ -1,4 +1,4 @@
-# Simple Subscriber Goal Stream Elements Overlay
+# Marathon Stream Timer Stream Elements Overlay
 
 1.) Go to your Stream Elements dashboard & create a new blank overlay in My Overlays.
 
