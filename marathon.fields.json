@@ -1,0 +1,228 @@
+{
+  "storeName": {
+    "type": "text",
+    "label": "Counter Name",
+    "value": "",
+    "group": "Main Config"
+  },
+  "timerHours": {
+    "type": "number",
+    "label": "Starting Value - Hours",
+    "value": 4,
+    "step": 1,
+	"group": "Main Config"
+  },
+    "timerMins": {
+    "type": "number",
+    "label": "Starting Value - Mins",
+    "value": 0,
+    "step": 1,
+    "group": "Main Config"
+  },
+  "timerSecs": {
+    "type": "number",
+    "label": "Starting Value - Seconds",
+    "value": 0,
+    "step": 1,
+    "group": "Main Config"
+  },
+  "startTimer": {
+    "type": "dropdown",
+    "label": "Start Timer",
+    "value": "no",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "group": "Main Config"
+  },
+    "fontName": {
+    "label": "Font Family",
+    "type": "googleFont",
+    "value": "Montserrat",
+    "group": "Fonts"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font size",
+    "value": 100,
+    "step": 1,
+    "min": 10,
+    "group": "Fonts"
+  },
+  "fontWeight": {
+    "label": "Font Weight",
+    "type": "dropdown",
+    "value": "700",
+    "options": {
+      "100": "Thin (100)",
+      "300": "Light (300)",
+      "400": "Regular (400)",
+      "500": "Medium (500)",
+      "700": "Bold (700)",
+      "900": "Black (900)"
+    },
+    "group": "Fonts"
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Font Color",
+    "value": "rgba(255,255,255,1)",
+    "group": "Fonts"
+  },
+  
+  "ChatCommandSettings0": {
+    "type": "hidden",
+    "label": "***************************",
+    "group":"Chat Commands"
+  },
+  "defaultVideoSettings1": {
+    "type": "hidden",
+    "label": "Enter a chat command",
+    "group":"Chat Commands"
+  },
+  "defaultVideoSettings1a": {
+    "type": "hidden",
+    "label": "to manually add time.",
+    "group":"Chat Commands"
+  },
+  "defaultVideoSettings2": {
+    "type": "hidden",
+    "label": "***************************",
+    "group":"Chat Commands"
+  },
+  
+    "addTimeCmd": {
+    "type": "text",
+    "label": "Add time command",
+    "value": "!addtime",
+    "group": "Chat Commands"
+  },
+  
+  "ChatCommandSettings0-1": {
+    "type": "hidden",
+    "label": "***************************",
+    "group":"Sub Config"
+  },
+  "defaultVideoSettings1b": {
+    "type": "hidden",
+    "label": "Enter the amount & type",
+    "group":"Sub Config"
+  },
+  "defaultVideoSettings1c": {
+    "type": "hidden",
+    "label": "of time that will be",
+    "group":"Sub Config"
+  },
+    "defaultVideoSettings1d": {
+    "type": "hidden",
+    "label": "added per subscription.",
+    "group":"Sub Config"
+  },
+  "defaultVideoSettings0-2": {
+    "type": "hidden",
+    "label": "***************************",
+    "group":"Sub Config"
+  },
+  
+  "timePerSub": {
+    "type": "number",
+    "label": "Time Per Sub",
+    "value": 0,
+    "step": 1,
+    "min": 0,
+    "group": "Sub Config"
+  },
+  "typePerSub": {
+    "type": "dropdown",
+    "label": "Select Time Type",
+    "value": "Minutes",
+    "options": {
+      "s": "Seconds",
+      "m": "Minutes",
+      "h": "Hours"
+    },
+    "group": "Sub Config"
+  },
+    "cheerAmount": {
+    "type": "number",
+    "label": "Cheer Amount",
+    "value": 0,
+    "step": 1,
+    "min": 0,
+    "group": "Cheer Config"
+  },    
+    "timePerCheer": {
+    "type": "number",
+    "label": "Time Per Cheer",
+    "value": 0,
+    "step": 1,
+    "min": 0,
+    "group": "Cheer Config"
+  },
+    "typePerCheer": {
+    "type": "dropdown",
+    "label": "Select Time Type",
+    "value": "Minutes",
+    "options": {
+      "s": "Seconds",
+      "m": "Minutes",
+      "h": "Hours"
+    },
+    "group": "Cheer Config"
+  },
+    "tipAmount": {
+    "type": "number",
+    "label": "Tip Amount",
+    "value": 0,
+    "step": 1,
+    "min": 0,
+    "group": "Tips Config"
+  },
+    "timePerTip": {
+    "type": "number",
+    "label": "Time Per Tip",
+    "value": 0,
+    "step": 1,
+    "min": 0,
+    "group": "Tips Config"
+  },
+    "typePerTip": {
+    "type": "dropdown",
+    "label": "Select Time Type",
+    "value": "Minutes",
+    "options": {
+      "s": "Seconds",
+      "m": "Minutes",
+      "h": "Hours"
+    },
+    "group": "Tips Config"
+  },
+  "dpCrateAmount": {
+    "type": "number",
+    "label": "Dixper Crate Amount",
+    "value": 0,
+    "step": 1,
+    "min": 0,
+    "group": "Dixper Config"
+  },    
+    "timePerDpCrate": {
+    "type": "number",
+    "label": "Time Per Crates",
+    "value": 0,
+    "step": 1,
+    "min": 0,
+    "group": "Dixper Config"
+  },
+    "typePerDpCrate": {
+    "type": "dropdown",
+    "label": "Select Time Type",
+    "value": "Minutes",
+    "options": {
+      "s": "Seconds",
+      "m": "Minutes",
+      "h": "Hours"
+    },
+    "group": "Dixper Config"
+  }
+}

@@ -1,0 +1,14 @@
+@import url("//fonts.googleapis.com/css?family={{fontName}}");
+
+* {
+  	box-sizing: border-box;
+	color: {{fontColor}};
+    font-family: {{fontName}}, sans-serif;
+  	font-size: {{fontSize}}px;
+  	font-weight: {{fontWeight}};
+  	overflow: hidden;
+}
+
+.main-container {
+    padding: 10px;
+}
