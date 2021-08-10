@@ -25,8 +25,7 @@ You should also have all of your setup options on the left.
 
 # How to use your Marathon Timer
 
-
-
+![Sub Goal](img/CheerConfig.png)
 
 # Change Log
 
