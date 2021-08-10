@@ -29,7 +29,7 @@ The marathon timer is an overlay for streamers who want to display an interactiv
 
 The following will explain how to configure the timer.
 
-** Main Config **
+**Main Config**
 
 <img src="img/MainConfig.png" width="300px" />
 
@@ -47,113 +47,111 @@ Enter the amount of time that you will want the clock to start at.
 
 Choose yes to start the timer & no to stop it.
 
-** Fonts **
+**Fonts**
 
 <img src="img/FontsConfig.png" width="300px" />
 
-The main config section is for the base timer configuration.
+The fonts section is used to select & customize your font.
 
-- Timer Name 
+- Font Family 
 
-The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+Select a font from a drop down of all the available Google fonts.
 
-- Starting Values: Hours, Minutes, Seconds
+- Font Size
 
-Enter the amount of time that you will want the clock to start at.
+The size of your timer's font.
 
-- Start Timer
+- Font Weight
 
-Choose yes to start the timer & no to stop it.
+Select the boldness of your font.
 
-** Chat Commands **
+- Font Color
+
+Select the color of your font.
+
+**Chat Commands**
 
 <img src="img/ChatCommand.png" width="300px" />
 
-The main config section is for the base timer configuration.
+The chat commands section allows you to setup a custom chat command to manually add time to the timer.  Only the streamer can use the command.
 
-- Timer Name 
+- Add time command 
 
-The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+Enter the command that you would like to use to add time.
 
-- Starting Values: Hours, Minutes, Seconds
+Use the following format to add time to the timer: *!YourCommand Amount(Type) -- !YourCommand 10m will add 10 minutes.*
 
-Enter the amount of time that you will want the clock to start at.
+Your time types are hours(h), minutes(m) & seconds(s).
 
-- Start Timer
-
-Choose yes to start the timer & no to stop it.
-
-** Sub Config **
+**Sub Config**
 
 <img src="img/SubConfig.png" width="300px" />
 
-The main config section is for the base timer configuration.
+The sub config section is for configuring how much time is added to the clock per subscription event.
 
-- Timer Name 
+- Time Per Sub
 
-The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+The amount of time to be added per sub.
 
-- Starting Values: Hours, Minutes, Seconds
+- Select Time Type
 
-Enter the amount of time that you will want the clock to start at.
+The type of time in which the amount should be added, hours, minutes or seconds.
 
-- Start Timer
-
-Choose yes to start the timer & no to stop it.
-
-** Cheer Config **
+**Cheer Config**
 
 <img src="img/CheerConfig.png" width="300px" />
 
-The main config section is for the base timer configuration.
+The cheer config section is for configuring how much time is added to the clock per an amount of bits cheered.
 
-- Timer Name 
+- Cheer Amount
 
-The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+The amount a visitor must cheer to add time to the clock
 
-- Starting Values: Hours, Minutes, Seconds
+- Time Per Cheer
 
-Enter the amount of time that you will want the clock to start at.
+The amount of time to be added per cheer amount.
 
-- Start Timer
+- Select Time Type
 
-Choose yes to start the timer & no to stop it.
+The type of time in which the amount should be added, hours, minutes or seconds.
 
-** Tips Config **
+**Tips Config**
 
 <img src="img/TipsConfig.png" width="300px" />
 
-The main config section is for the base timer configuration.
+The tips config section is for configuring how much time is added to the clock per an amount tipped.
 
-- Timer Name 
+- Tip Amount
 
-The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+The amount a visitor must tip to add time to the clock
 
-- Starting Values: Hours, Minutes, Seconds
+- Time Per Cheer
 
-Enter the amount of time that you will want the clock to start at.
+The amount of time to be added per tip amount.
 
-- Start Timer
+- Select Time Type
 
-Choose yes to start the timer & no to stop it.
+The type of time in which the amount should be added, hours, minutes or seconds.
 
-** Dixper Config **
+**Dixper Config**
 
 <img src="img/DixperConfig.png" width="300px" />
 
-The main config section is for the base timer configuration.
+The Dixper config section is for configuring how much time is added to the clock per an amount of Dixper crates purchased.
 
-- Timer Name 
+This integration requires you to be a [Dixper](https://dixper.gg/home) user & to have the Dixper bot enabled in your chat.
 
-The timer name is required and is used to keep the time in sync if the timer source has to be reset for any reason.
+- Dixper Crate Amount
 
-- Starting Values: Hours, Minutes, Seconds
+The amount of Dixper crates a visitor must purchase to add time to the clock.
 
-Enter the amount of time that you will want the clock to start at.
+- Time Per Crates
 
-- Start Timer
+The amount of time to be added per crates purchased.
 
-Choose yes to start the timer & no to stop it.
+- Select Time Type
+
+The type of time in which the amount should be added, hours, minutes or seconds.
 
 # Change Log
 
