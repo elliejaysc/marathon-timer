@@ -139,7 +139,7 @@ window.addEventListener('onEventReceived', function (obj) {
         }
       }
       
-      if(event.data.nick.toLowerCase() === "elliejaysc" && fd.timePerDpCrate > 0) {
+      if(event.data.nick.toLowerCase() === "dixperbro" && fd.timePerDpCrate > 0) {
       	let msg = event.data.text;
         if(msg.includes("crate")){
           const crates = getCrateAmount(msg);
