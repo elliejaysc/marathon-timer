@@ -250,5 +250,35 @@
       "h": "Hours"
     },
     "group": "Dixper Config"
+  },
+  "useSoundAlerts": {
+    "type": "dropdown",
+    "label": "Use Sound Alerts",
+    "value": "No",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "group": "Sound Alert Config"
+  },
+  "SaInfo1": {
+    "type": "hidden",
+    "label": "***************************",
+    "group":"Sound Alert Config"
+  },
+  "SaInfo2": {
+    "type": "hidden",
+    "label": "Sound Alerts will use",
+    "group":"Sound Alert Config"
+  },
+  "SaInfo3": {
+    "type": "hidden",
+    "label": "the Cheer configuration.",
+    "group":"Sound Alert Config"
+  },
+  "SaInfo5": {
+    "type": "hidden",
+    "label": "***************************",
+    "group":"Sound Alert Config"
   }
 }

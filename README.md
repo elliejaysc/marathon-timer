@@ -189,5 +189,20 @@ The type of time in which the amount should be added, hours, minutes or seconds.
 
 [↑](#How-to-use-your-Marathon-Timer)
 
+## SoundAlerts Config
+
+The SoundAlerts config section is for enabling/disabling the SoundAlerts integration. Sound Alerts will use the same configuration as Cheers.
+
+This integration requires you to be using the [Sound Alerts](https://soundalerts.com/) extension & to have the Sound Alerts bot enabled in your chat.
+
+<img src="img/SAConfig.png" width="300px" />
+
+- Use Sound Alert
+
+Choose yes to use Sound Alerts with the timer & no to not use them it.
+
+[↑](#How-to-use-your-Marathon-Timer)
+
 # Change Log
 
+**2021-08-14:** Added integration for users that want to use the Sound Alerts Twitch extension.

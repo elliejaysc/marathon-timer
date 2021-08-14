@@ -46,31 +46,33 @@ function getMultiplyer(type) {
 
 function getCrateAmount(str) {
 	const regex1 = /[^x\d]*/;
-  	const regex2 = /[^x\d]*$/;
+  const regex2 = /[^x\d]*$/;
 	const subst = ``;
 	str = str.split(' ').slice(1).join(' ');
 	const result1 = str.replace(regex1, subst);
-  	const amount = result1.replace(regex2, subst).substring(1);
+  const amount = result1.replace(regex2, subst).substring(1);
+  
+  return amount;
+}
+
+function getSaAmount(str) {
+  let amount = 0;
+	str = str.split(' ').slice(1);
+  	if(str.indexOf("bits") > -1)
+      amount = str[str.indexOf("bits")-1];
   
   	return amount;
 }
 
 
 window.addEventListener('onEventReceived', function (obj) {
-  	//console.log(obj);
   
     if (!obj.detail.event) {
       return;
     }
   	
-  	//console.log(`%cobj.detail.listener: ${obj.detail.listener}`, "color: yellow");
-  
-    //const listener = obj.detail.listener.split("-")[0] != "event:test" ? obj.detail.listener.split("-")[0] : obj.detail.event.listener.split("-")[0];
   	const listener = obj.detail.listener.split("-")[0];
     const event = obj.detail.event;
-  	
-  	//console.log(event.listener);
-  	//console.log("%cListener --> " + listener, "color: yellow");
   
 	if (listener === 'subscriber' && fd.timePerSub > 0) {
       
@@ -110,13 +112,13 @@ window.addEventListener('onEventReceived', function (obj) {
       
     } else if (listener === 'merch') {
       
-		console.log("Merch Purchase");
+		  console.log("Merch Purchase");
       
     } else if (listener === 'message') {
 
       if(event.data.tags.badges.includes("broadcaster")) {
         if(event.data.text.startsWith(fd.addTimeCmd)) {
-			let msg = event.data.text.replace(fd.addTimeCmd, "");
+			      let msg = event.data.text.replace(fd.addTimeCmd, "");
           	let times = msg.split(" ");
           	let timeToAdd = 0;
           	if(times.length > 0){
@@ -143,8 +145,6 @@ window.addEventListener('onEventReceived', function (obj) {
       	let msg = event.data.text;
         if(msg.includes("crate")){
           const crates = getCrateAmount(msg);
-          
-          console.log(`${crates} were purchased.`);
           let time = fd.timePerDpCrate;
           let mult = getMultiplyer(fd.typePerDpCrate);
       	  let amount = fd.dpCrateAmount;
@@ -154,11 +154,23 @@ window.addEventListener('onEventReceived', function (obj) {
           
         }
       }
+
+      if(event.data.nick.toLowerCase() === "soundalerts" && fd.useSoundAlerts == "yes") {
+      	let msg = event.data.text;
+        if(msg.includes("bits")){
+          const SaAmount = getSaAmount(msg);
+          let time = fd.timePerCheer;
+          let mult = getMultiplyer(fd.typePerCheer);
+          let amount = fd.cheerAmount;
+          let cheerMult = Math.floor(SaAmount/amount);
+          count += (time * cheerMult * mult);
+          
+        }
+      }
     }
 });
 
 window.addEventListener('onWidgetLoad', function (obj) {
-    //let recents = obj.detail.recents;
   
   	data = obj.detail.session.data;
   	fd = obj.detail.fieldData;
