@@ -36,6 +36,7 @@ The following will explain how to configure the timer.
 - [Cheer Config](#cheer-config)
 - [Tips Config](#tips-config)
 - [Dixper Config](#dixper-config)
+- [Sound Alerts Config](#sound-alerts-config)
 
 ## Main Config
 
@@ -189,7 +190,7 @@ The type of time in which the amount should be added, hours, minutes or seconds.
 
 [↑](#How-to-use-your-Marathon-Timer)
 
-## SoundAlerts Config
+## Sound Alerts Config
 
 The SoundAlerts config section is for enabling/disabling the SoundAlerts integration. Sound Alerts will use the same configuration as Cheers.
 
@@ -197,7 +198,7 @@ This integration requires you to be using the [Sound Alerts](https://soundalerts
 
 <img src="img/SAConfig.png" width="300px" />
 
-- Use Sound Alert
+- Use Sound Alerts
 
 Choose yes to use Sound Alerts with the timer & no to not use them it.
 
